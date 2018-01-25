@@ -5,10 +5,10 @@ ini_set('display_errors', 'On');
 
 session_name('cwHello'); session_set_cookie_params(10*365*24*60*60); session_start();
 
-$db_host    = 'localhost';
-$db_user    = 'christofian';
-$db_pass    = 'password';
-$db_name    = 'test';
+$db_host    = 'sql12.freesqldatabase.com';
+$db_user    = 'sql12217715';
+$db_pass    = 'MG2bJwy7ar';
+$db_name    = 'sql12217715';
 
 $db = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass
       , array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
